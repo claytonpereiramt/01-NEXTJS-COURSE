@@ -18,10 +18,7 @@ export async function getStaticProps() {
 }
 
 const FaqPage = ({faq}) => {
-/*   const [faq, setFaq ] = useState([]);
-  useEffect(() => {
 
-}, []) */
 	return (
 		<div>
 			<h1>Alura Cases - Faq</h1>
