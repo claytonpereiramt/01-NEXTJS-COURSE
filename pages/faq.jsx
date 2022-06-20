@@ -29,7 +29,7 @@ const FaqPage = ({faq}) => {
          {faq.map(({answer, question}) => (
    <article>
     <li key={question}>{question}</li>
-   <p>{answer}</p>
+   <p key={question + 1}>{answer}</p>
 </article>
     )) }
       </ul>
